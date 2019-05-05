@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="9dp"
+
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/photo"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/photo"
+        android:layout_alignBottom="@+id/photo"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="21dp"
+        android:layout_toEndOf="@+id/photo"
+        android:layout_toRightOf="@+id/photo"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cellno"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/photo"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/photo"
+        android:layout_toRightOf="@+id/photo"
+        android:text="999999999"
+        android:textColor="#555"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
