@@ -1,2 +1,2 @@
 # Contact Reader
-A contact reader app which show real time updates in contact list
+A contact reader app which shows real time updates in contact list
